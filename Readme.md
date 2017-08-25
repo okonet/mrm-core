@@ -64,7 +64,7 @@ npm install --save-dev mrm-core
 
 ### Work with files
 
-* Do not overwrite original files, .
+* Do not overwrite original files.
 * All functions (except getters) can be chained.
 * `save()` will create file if it doesn’t exist or update it with new data.
 * `save()` will write file to disk only if the new content is different from the original file.
